@@ -1,1 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ZHlrD2sU)
+# HARDWARE Y SOFTWARE(Informacion aburrida)
+## HARDWARE:
+### Dentro del hardware están los siguientes elementos:
+- **CPU (Unidad Central de Procesamiento):** Es basicamente el cerebro de un dispositivo, este realiza toda los calculos para que el dispositivo realice lo que le ordena el usuario.
+- **RAM (Memoria de Acceso Aleatorio):** Almacena datos temporales que necesita el CPU en cierto momento, de esta manera a CPU adquiere toda la información necesaria para ejecutar las tareas. Como es temporal, la información se pierde cuando se apaga el dispositivo.
+- **Almacenamiento (HDD, SSD):** Es donde se guarda toda la información del dispositivo, comunmente es conocido como *"la memoria del dispositivo"*. El alamacenamiento **HDD** (Disco duro) funciona con discos magenticos giratorios que almacenan informacion, es muy economico y tiene altas capacidades de almacenamiento, pero es fragil a golpes. Por otro lado está el almacenamiento **SSD** (Unidad de estado solido) este no tiene ningun tipo de piezas moviles, sino que guarda datos con memoria flash, la cual es más segura y da un mejor rendimiento a la carga y descarga de archivos.
+- **Placa base (*Motherboard*):** Es el componente principal, el cual perminte la comunicacion entre todos los otros componentes, además de puertos para conectar tarjetas graficas, tarjetas de sonido, perifericos, discos duros externos. Esta distribuye la energia para que todos los componentes reciban la energia suficiente para funcionar. 
+- **Dispositivos de entrada y salida:** Son lo que permite la interaccion entre el dispositivo y el usuario. Por ejemplo algunos dispositivos de entrada podrian ser el teclado, el mouse, un microfono, webcam, etc. Basicamente los dispositivos con los que el usuario le provee informacion a el dispositivo. Mientras que los de salida son por ejemplo, el monitor, los altavoces, una impresoram etc. Son aquellos que muestran la informacion que sale del dispositvo al usuario.
+- **Buses (de datos y dirección):**
+
+# HARDWARE Y SOFTWARE(Mind map)
