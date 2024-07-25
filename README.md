@@ -16,6 +16,5 @@
 - **Software de desarrollo:** Son programas donde un desarrollador puede crear nuevo software. Esto se hace con editores de código como Visual Studio Code, sistemas de control de versiones o herramientas de automatización.
 
 # HARDWARE Y SOFTWARE (Mind map)
-[Visita GitHub](<https://github.co>)
-
-![Ejemplo de imagen](<https://whimsical.com/mind-map-PkjmbeomAUYSUM879CoHRr>)
+![Imagen mapa mental](<https://imgur.com/a/53hRdKT>)
+[Revisa mapa mental](https://whimsical.com/mind-map-PkjmbeomAUYSUM879CoHRr)
