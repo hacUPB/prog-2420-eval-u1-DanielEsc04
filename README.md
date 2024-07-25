@@ -15,6 +15,7 @@
 - **Drivers:** Son programas que permiten que el sistema operativo controle el hardware y de esta manera poder configurar sus funciones a deseo del usuario. 
 - **Software de desarrollo:** Son programas donde un desarrollador puede crear nuevo software. Esto se hace con editores de código como Visual Studio Code, sistemas de control de versiones o herramientas de automatización.
 
-
-
 # HARDWARE Y SOFTWARE (Mind map)
+[Visita GitHub](<https://github.co>)
+
+![Ejemplo de imagen](<https://whimsical.com/mind-map-PkjmbeomAUYSUM879CoHRr>)
