@@ -8,4 +8,13 @@
 - **Dispositivos de entrada y salida: ** Son lo que permite la interacción entre el dispositivo y el usuario. Por ejemplo, algunos dispositivos de entrada podrían ser el teclado, el mouse, un micrófono, webcam, etc. Básicamente los dispositivos con los que el usuario le provee información a el dispositivo. Mientras que los de salida son, por ejemplo, el monitor, los altavoces, una impresora etc. Son aquellos que muestran la información que sale del dispositivo al usuario.
 - **Buses (de datos y dirección):** Transportan datos entre diferentes componentes del sistema. El bus de datos transporta información de la CPU, la memoria y periféricos. El bus de dirección transporta direcciones desde la CPU indicando donde se deben leer y escribir datos. 
 
+## SOFTWARE: 
+### En el software están los siguientes elementos:
+- **Sistema Operativo:** Es el software principal de un dispositivo, es quien controla todos los recursos del hardware, le proporciona una interfaz para que el usuario pueda navegar por las aplicaciones y poder operar de manera fácil el dispositivo.
+- **Aplicaciones de usuario:** Son programas diseñados para que el usuario realice tareas específicas en el dispositivo, estas aplicaciones pueden ser procesadores de texto, hojas de cálculo, navegadores web, etc.
+- **Drivers:** Son programas que permiten que el sistema operativo controle el hardware y de esta manera poder configurar sus funciones a deseo del usuario. 
+- **Software de desarrollo:** Son programas donde un desarrollador puede crear nuevo software. Esto se hace con editores de código como Visual Studio Code, sistemas de control de versiones o herramientas de automatización.
+
+
+
 # HARDWARE Y SOFTWARE (Mind map)
