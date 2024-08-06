@@ -2,7 +2,8 @@
 ## HARDWARE:
 ### Dentro del hardware están los siguientes elementos:
 - **CPU (Unidad Central de Procesamiento):** Es básicamente el cerebro de un dispositivo, este realiza toda los cálculos para que el dispositivo realice lo que le ordena el usuario.
-La CPU se compone de nucleos, unidad de control, unidad aritmetico-logica, caché. 
+La CPU se compone de nucleos, unidad de control, unidad aritmetico-logica, caché.
+Su velocidad se mide en gigahercios (GHz) y esto indica la cantidad de ciclos de reloj que puede realizar por segundo. Un ciclo de reloj es una unidad de tiempo en el que se puede realizar una operacion.
 
 ![Imagen CPU](<https://th.bing.com/th/id/OIP.qfEFefy0jjtGnwNyhAwEAAAAAA?rs=1&pid=ImgDetMain>)
 - **RAM (Memoria de Acceso Aleatorio):** Almacena datos temporales que necesita el CPU en cierto momento, de esta manera a CPU adquiere toda la información necesaria para ejecutar las tareas. Como es temporal, la información se pierde cuando se apaga el dispositivo.
