@@ -41,3 +41,29 @@ Inicio
         Imprimir Edad_Real
 Fin
 ` ` ` 
+
+# Problema 2
+Ana quiere saber si ha aprobado sus exámenes finales. Tiene una lista de sus calificaciones y necesita calcular el promedio. Para aprobar, debe tener un promedio de al menos 3.0.
+## Variables
+•	#materias: El usuario comunica la cantidad de materias que ve.
+•	Calificación: El usuario comunica la calificación que obtuvo en cada materia.
+•	Promedio_Suma:Se realiza la suma de sus calificaciones dividida entre la cantidad de materias.
+•	Promedio_Final: Se le entrega al usuario el promedio.
+
+` ` ` 
+Inicio
+
+    Definir Promedio_Suma=0
+    Leer #materias
+    Para cada materia
+        Leer Calificacion
+        Promedio_Suma= Promedio_Suma + Calificación 
+    Fin Para
+    Promedio_Final=Promedio_Suma/#materias
+    Imprimir Promedio_Final
+    Si Promedio_final >= 3.0
+        Imprimir "¡¡Felicidades, logró aprobar!!" 
+    Si no 
+        Imprimir "Lo lamentamos, no cumplió con la nota minima "
+Fin
+` ` ` 
