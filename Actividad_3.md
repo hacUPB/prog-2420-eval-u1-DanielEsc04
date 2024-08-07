@@ -1,21 +1,23 @@
 # Problema 6 
 Se desea saber cuántos años, meses y días tiene actualmente una persona, basándose en su fecha de nacimiento. Además, le gustaría saber si ya ha cumplido años este año o aún no, y si hoy es su cumpleaños para celebrarlo. Cada una de las fechas está conformada por 3 variables: día, mes y año
 ## Variables
-    Año_Nacimiento: Se usa para saber el año de nacimiento del usuario
-    Mes_Nacimiento: Se usa para saber el mes de nacimiento del usuario
-    Dia_Nacimiento: Se usa para saber el dia de nacimiento del usuario
+•	Año_Nacimiento: Se usa para saber el año de nacimiento del usuario
+•	Mes_Nacimiento: Se usa para saber el mes de nacimiento del usuario
+•	Dia_Nacimiento: Se usa para saber el dia de nacimiento del usuario
 
-    Año_Actual: Se toma informacion de calendario del año actual
-    Mes_Actual: Se toma informacion de calendario del mes actual
-    Dia_Actual: Se toma informacion de calendario del dia actual
-    
-    Edad_Años: Diferencia Años
-    Edad_Mes: Diferencia Meses
-    Edad_Dia: Diferencia Dias
-    Edad_Real: Edad del usuario en la fecha actual.
+•	Año_Actual: Se toma informacion de calendario del año actual
+•	Mes_Actual: Se toma informacion de calendario del mes actual
+•	Dia_Actual: Se toma informacion de calendario del dia actual
+
+•	Edad_Años: Diferencia Años
+•	Edad_Mes: Diferencia Meses
+•	Edad_Dia: Diferencia Dias
+•	Edad_Real: Edad del usuario en la fecha actual.
+
 
 ` ` ` 
 Inicio
+
     Leer Año_Nacimiento
     Leer Mes_Nacimiento
     Leer Dia_Nacimiento
