@@ -1,0 +1,120 @@
+# Problema 6 
+Se desea saber cuántos años, meses y días tiene actualmente una persona, basándose en su fecha de nacimiento. Además, le gustaría saber si ya ha cumplido años este año o aún no, y si hoy es su cumpleaños para celebrarlo. Cada una de las fechas está conformada por 3 variables: día, mes y año
+## Variables
+•	Año_Nacimiento: Se usa para saber el año de nacimiento del usuario
+•	Mes_Nacimiento: Se usa para saber el mes de nacimiento del usuario
+•	Dia_Nacimiento: Se usa para saber el dia de nacimiento del usuario
+
+•	Año_Actual: Se toma informacion de calendario del año actual
+•	Mes_Actual: Se toma informacion de calendario del mes actual
+•	Dia_Actual: Se toma informacion de calendario del dia actual
+
+•	Edad_Años: Diferencia Años
+•	Edad_Mes: Diferencia Meses
+•	Edad_Dia: Diferencia Dias
+•	Edad_Real: Edad del usuario en la fecha actual.
+
+
+` ` ` 
+Inicio
+
+    Leer Año_Nacimiento
+    Leer Mes_Nacimiento
+    Leer Dia_Nacimiento
+    Leer Año_Actual
+    Leer Mes_Actual
+    Leer Dia_Actual
+    
+    Edad_Años = Año_Actual-Año_Nacimiento
+    Edad_Mes = Mes_Actual-Mes_Nacimiento
+    Edad_Dia = Dia_Actual-Dia_Nacimiento
+    
+    Si Edad_Mes=0 y Edad_Dias=0
+        Imprimr: "Feliz" Edad_Años " cumpleaños"
+
+    Si Edad_Mes < 0 
+        Edad_Real= Edad_Años-1
+    Si no
+        Si Edad_Dias < 0
+            Edad_Real= Edad_Años-1
+        Si no 
+        Imprimir Edad_Real
+Fin
+` ` ` 
+
+# Problema 1
+Ana quiere saber si ha aprobado sus exámenes finales. Tiene una lista de sus calificaciones y necesita calcular el promedio. Para aprobar, debe tener un promedio de al menos 3.0.
+## Variables
+•	#materias: El usuario comunica la cantidad de materias que ve.
+•	Calificación: El usuario comunica la calificación que obtuvo en cada materia.
+•	Promedio_Suma:Se realiza la suma de sus calificaciones dividida entre la cantidad de materias.
+•	Promedio_Final: Se le entrega al usuario el promedio.
+
+` ` ` 
+Inicio
+
+    Definir Promedio_Suma=0
+    Leer #materias
+    Para cada materia
+        Leer Calificacion
+        Promedio_Suma= Promedio_Suma + Calificación 
+    Fin Para
+    Promedio_Final=Promedio_Suma/#materias
+    Imprimir Promedio_Final
+    Si Promedio_final >= 3.0
+        Imprimir "¡¡Felicidades, logró aprobar!!" 
+    Si no 
+        Imprimir "Lo lamentamos, no cumplió con la nota minima "
+Fin
+` ` ` 
+# Problema 5
+Luis está participando en un torneo de bolos y quiere calcular su puntaje total. Tiene una lista de las puntuaciones de cada tiro y necesita sumar los puntos siguiendo las reglas del juego.
+## Variables
+•	Lanzamientos: Se indica la cantidad de lanzamientos que hace el jugador.
+•	Score: El usuario inica los puntos que hizo en su lanzamiento.
+•	Puntos_Parcial: Se van sumando los puntos que hace en cada lanzamiento.
+•	Puntos_Total: Sumatoria total del juego.
+
+` ` ` 
+Inicio 
+    Definir Puntos_Parcial=0
+    Leer Lanzamientos
+    Para cada lanzamiento
+        Leer Score:
+        Puntos_Parcial = Puntos_Parcial + Score 
+        Imprimir Puntos_Parciales
+    Fin para
+     
+` ` `
+# Ejemplo en clase 
+Parqueadero 
+Primeras 2 horas = 5$
+Despues de la tercera hora = 4$
+Despues de la quinta hora = 3$
+Despues de la decima hora = 2$
+## Variables
+Entrada: Hora entrada
+Salida: Hora salida
+horas: cantidad de horas
+valor: El valor del parqueadero en funcion de las horas.
+
+` ` `
+Inicio
+Leer Entrada
+Leer Salida
+horas = Salida - Entrada
+Si horas <= 2 
+    valor = horas*5
+fin si
+Si 2 < horas <= 5 
+    valor = ((horas - 2)*4)+10
+fin si
+Si 5 < horas <= 10
+    valor = ((horas - 5)*3)+22
+fin si
+Si horas > 10 
+    valor = horas*2
+fin si
+imprimir valor
+Fin
+` ` `
