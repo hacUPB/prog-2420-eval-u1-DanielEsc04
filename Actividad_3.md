@@ -25,9 +25,9 @@ Inicio
     Leer Mes_Actual
     Leer Dia_Actual
     
-    Edad_Años: Año_Actual-Año_Nacimiento
-    Edad_Mes: Mes_Actual-Mes_Nacimiento
-    Edad_Dia: Dia_Actual-Dia_Nacimiento
+    Edad_Años = Año_Actual-Año_Nacimiento
+    Edad_Mes = Mes_Actual-Mes_Nacimiento
+    Edad_Dia = Dia_Actual-Dia_Nacimiento
     
     Si Edad_Mes=0 y Edad_Dias=0
         Imprimr: "Feliz" Edad_Años " cumpleaños"
@@ -81,7 +81,8 @@ Inicio
     Leer Lanzamientos
     Para cada lanzamiento
         Leer Score:
-        Sumar Puntos Parciales + Score 
+        Puntos_Parcial = Puntos_Parcial + Score 
+        Imprimir Puntos_Parciales
     Fin para
     
-` ` ` 
+` ` `
