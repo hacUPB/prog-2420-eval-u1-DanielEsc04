@@ -42,7 +42,7 @@ Inicio
 Fin
 ` ` ` 
 
-# Problema 2
+# Problema 1
 Ana quiere saber si ha aprobado sus exámenes finales. Tiene una lista de sus calificaciones y necesita calcular el promedio. Para aprobar, debe tener un promedio de al menos 3.0.
 ## Variables
 •	#materias: El usuario comunica la cantidad de materias que ve.
@@ -66,4 +66,22 @@ Inicio
     Si no 
         Imprimir "Lo lamentamos, no cumplió con la nota minima "
 Fin
+` ` ` 
+# Problema 5
+Luis está participando en un torneo de bolos y quiere calcular su puntaje total. Tiene una lista de las puntuaciones de cada tiro y necesita sumar los puntos siguiendo las reglas del juego.
+## Variables
+•	Lanzamientos: Se indica la cantidad de lanzamientos que hace el jugador.
+•	Score: El usuario inica los puntos que hizo en su lanzamiento.
+•	Puntos_Parcial: Se van sumando los puntos que hace en cada lanzamiento.
+•	Puntos_Total: Sumatoria total del juego.
+
+` ` ` 
+Inicio 
+    Definir Puntos_Parcial=0
+    Leer Lanzamientos
+    Para cada lanzamiento
+        Leer Score:
+        Sumar Puntos Parciales + Score 
+    Fin para
+    
 ` ` ` 
