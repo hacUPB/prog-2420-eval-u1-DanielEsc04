@@ -77,6 +77,7 @@ Luis está participando en un torneo de bolos y quiere calcular su puntaje total
 
 ` ` ` 
 Inicio 
+
     Definir Puntos_Parcial=0
     Leer Lanzamientos
     Para cada lanzamiento
