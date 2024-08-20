@@ -53,3 +53,8 @@ Inicio
     Si Deuda > 0 
         Repetir mientras
 Fin
+
+# Ejercicio Bus 
+# Variables 
+Presupuesto:
+
