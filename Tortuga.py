@@ -7,7 +7,7 @@ if distancia < 1500:
 elif distancia < 1600:
     print("Mexico")
 elif distancia < 2400:
-    print("PV)
+    print("PV")
 elif distancia < 3600:
     print("Acapulco")
 else:
