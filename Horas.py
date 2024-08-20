@@ -8,4 +8,4 @@ elif horas < 40:
     pago = (valor_hora) *40 + (valor_hora)*2+(hora-40)
 else:
     pago = valor_hora*horas
-print (pago)
+print (f"su pago fue de $(pago)")
