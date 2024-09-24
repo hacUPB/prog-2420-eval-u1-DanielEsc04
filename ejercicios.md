@@ -54,7 +54,22 @@ Inicio
         Repetir mientras
 Fin
 
-# Ejercicio Bus 
-# Variables 
-Presupuesto:
-
+# Ejercicio horas
+# Variables
+Horas:
+Valor_hora:
+Pago:
+Inicio
+    Leer Horas
+    Leer valor_hora
+    si horas > 50
+        Escribir "Prohibido"
+    Sino 
+        si horas < 45 
+            pago = (valor_hora)*40 + (valor_hora)*10 + valor_hora*3*(horas-45)
+        sino 
+            si hora < 40 
+                pago = (valor_hora)*40 + (valor_hora)*2+(hora-40)
+            sino 
+            pago = valor_hora*horas
+    escribir pago
